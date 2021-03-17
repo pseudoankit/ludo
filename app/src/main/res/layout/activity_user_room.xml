@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ludo"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    tools:context=".ui.game.ludo.ui.UserRoomActivity">
+
+    <TextView
+        android:id="@+id/tvRoomKey"
+        style="@style/tv_header"
+        android:textColor="@color/blue" />
+
+    <TextView
+        style="@style/tv_header"
+        android:text="Choose Token"
+        android:layout_margin="20dp"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutChooseColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/player1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/g_yellow"
+            android:layout_height="@dimen/choose_token_color"/>
+        <ImageView
+            android:id="@+id/player2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/g_blue"
+            android:layout_height="@dimen/choose_token_color"/>
+        <ImageView
+            android:id="@+id/player3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/g_red"
+            android:layout_height="@dimen/choose_token_color"/>
+        <ImageView
+            android:id="@+id/player4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/g_green"
+            android:layout_height="@dimen/choose_token_color"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Start"
+        android:textAllCaps="false" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        style="@style/tv_header"
+        android:textColor="@color/blue"
+        android:text="Room"/>
+
+    <TextView
+        android:id="@+id/tvRoomKey"
+        style="@style/authButton"
+        android:textColor="@color/black"
+        android:hint="@string/enter_key" />
+
+    <TextView
+        android:id="@+id/shareToWhatsapp"
+        style="@style/authButton"
+        android:text="Share In Whatsapp"
+        android:backgroundTint="@color/blue"/>
+
+</LinearLayout>

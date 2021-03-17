@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ls"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    android:weightSum="12"
+    tools:context=".ui.auth.ForgotPasswordFragment">
+
+    <TextView
+        style="@style/authButton"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_weight="2"
+        android:text="@string/login_to_the_gaming_fun_today" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="10">
+        <TextView
+            style="@style/authButton"
+            android:layout_height="80dp"
+            android:text="Sign Up" />
+
+        <EditText
+            android:id="@+id/et_signup_mobileNo"
+            style="@style/etStyle"
+            android:hint="@string/mobile_number" />
+        <EditText
+            android:id="@+id/et_signup_name"
+            style="@style/etStyle"
+            android:hint="@string/full_name" />
+        <EditText
+            android:id="@+id/et_signup_password"
+            style="@style/etStyle"
+            android:hint="@string/password" />
+        <EditText
+            android:id="@+id/et_fp_mobileNo"
+            style="@style/etStyle"
+            android:hint="@string/confirm_password" />
+
+        <RelativeLayout
+            android:id="@+id/btn_fp_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                style="@style/authButton"
+                android:layout_height="55dp"
+                android:layout_below="@id/et_login_password"
+                android:backgroundTint="@color/yellow" />
+
+            <TextView
+                style="@style/authButton"
+                android:backgroundTint="@color/blue"
+                android:text="@string/register" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/authButton"
+            android:layout_height="80dp"
+            android:text="@string/already_have_a_account_sign_in" />
+    </LinearLayout>
+
+</LinearLayout>

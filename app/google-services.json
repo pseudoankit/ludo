@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827746199911",
+    "project_id": "winmo-f67f6",
+    "storage_bucket": "winmo-f67f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827746199911:android:6fb1e7c2dcce02dba767c2",
+        "android_client_info": {
+          "package_name": "com.android.winmo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827746199911-22ec9or67047bsuses7kdca6ma2aammd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3-RyHZRPZ9PiBWp1QmxROdT4RvxfpvgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827746199911-22ec9or67047bsuses7kdca6ma2aammd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

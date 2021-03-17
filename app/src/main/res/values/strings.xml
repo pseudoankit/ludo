@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WinMo</string>
+    <string name="or_connect_with">or connect with</string>
+    <string name="login_to_the_gaming_fun_today">Login To The Gaming Fun Today!</string>
+
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_registered_mobile_number">Registered Mobile Number</string>
+    <string name="reset">Reset</string>
+    <string name="register">Register</string>
+    <string name="already_have_a_account_sign_in">Already have a account? Sign In</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="web_client_id">Client Id</string>
+    <string name="facebook_app_id">470235217481684</string>
+    <string name="fb_login_protocol_scheme">fb470235217481684</string>
+    <string name="enter_key">Enter Key</string>
+</resources>

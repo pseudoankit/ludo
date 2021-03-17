@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="layout_padding">20dp</dimen>
+    <dimen name="choose_token_color">65dp</dimen>
+</resources>
